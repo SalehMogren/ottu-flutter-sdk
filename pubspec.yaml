@@ -4,7 +4,7 @@ version: 0.1.6
 homepage: https://github.com/sdkpayment/Flutter-SDK.git
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: ">=2.18.5 <3.4.5"
   flutter: ">=2.8.0"
 
 dependencies:
@@ -12,9 +12,9 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.1.8
   flutter_localization: ^0.1.14
-  intl: ^0.18.1
+  intl: ^0.19.0
   http: ^1.2.0
-#  webview_flutter: ^4.4.4
+  #  webview_flutter: ^4.4.4
   webview_flutter: ^3.0.1
   web_socket_channel: ^2.4.0
   flutter_windowmanager: ^0.2.0
@@ -27,7 +27,6 @@ dependencies:
   pem: ^2.0.4
   flutter_svg: ^2.0.9
   flutter_lints: ^3.0.1
-
 
 dev_dependencies:
 #  flutter_test:
